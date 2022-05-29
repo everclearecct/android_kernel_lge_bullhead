@@ -27,6 +27,7 @@ jobs:
         compiler: gcc/8
         defconfig: aoscp_bullhead_defconfig
         image: Image.gz-dtb
+        python_version: 2
 
     - name: Release build
       uses: ncipollo/release-action@v1
