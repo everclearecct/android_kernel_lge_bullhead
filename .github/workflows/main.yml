@@ -24,7 +24,7 @@ jobs:
         NAME: kernel build
       with:
         arch: arm64
-        compiler: gcc-4.8
+        compiler: gcc/4.8
         defconfig: aoscp_bullhead_defconfig
         image: Image.gz-dtb
         python_version: 2
